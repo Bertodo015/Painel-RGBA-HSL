@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    #color-display-rgba {
+        width: 300px;
+        height: 300px;
+    }
+
+    #color-display-rgba > label, 
+    #color-display-rgba > input[type=range] {
+        display: block;
+        text-align: center;
+    }
+    input[type=range] {
+        /*margin: auto;     caso queira*/
+        width: 100%;
+    }
+
+    #color-display-hsl {
+        width: 300px;
+        height: 300px;
+    }
+}

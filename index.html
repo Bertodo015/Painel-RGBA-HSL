@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Painel RGBA</title>
+</head>
+<body>
+    <div id="color-display-rgba"></div>
+
+    <div id="color-controls-rgba">
+
+        <div id="direct-color-controls">
+            <input type="radio" name="direct-color" id="direct-red">
+            <label for="direct-red">red</label>
+            
+            <input type="radio" name="direct-color" id="direct-green">
+            <label for="direct-green">green</label>
+            
+            <input type="radio" name="direct-color" id="direct-blue">
+            <label for="direct-blue">blue</label>
+            
+        </div>
+
+        <h2>RGBA</h2>
+
+        <label for="red">red</label>
+        <input 
+            type="range" 
+            name="red" 
+            id="red" 
+            value="0" 
+            min="0" 
+            max="255">
+        
+        <label for="green">green</label>
+        <input 
+            type="range" 
+            name="green" 
+            id="green" 
+            value="0" 
+            min="0" 
+            max="255">
+        
+        <label for="blue">blue</label>
+        <input 
+            type="range" 
+            name="blue" 
+            id="blue" 
+            value="0" 
+            min="0" 
+            max="255">
+
+        <label for="alpha">alpha</label>
+        <input 
+            type="range" 
+            name="alpha" 
+            id="alpha" 
+            value="1" 
+            min="0" 
+            max="1"
+            step="0.01"> 
+    </div>
+
+
+    <div id="color-display-hsl"></div>
+
+    <div id="color-controls-hsl">
+
+        <div id="direct-hsl-color-controls">
+            <input type="radio" name="direct-hsl-color" id="direct-hsl-red">
+            <label for="direct-hsl-red">red</label>
+            <input type="radio" name="direct-hsl-color" id="direct-hsl-green">
+            <label for="direct-hsl-green">green</label>
+            <input type="radio" name="direct-hsl-color" id="direct-hsl-blue">
+            <label for="direct-hsl-blue">blue</label>
+        </div>
+
+        <h2>HSL</h2>
+
+        <label for="hue">hue</label>
+        <input 
+            type="range" 
+            name="hue" 
+            id="hue"
+            value="0"
+            min="0"
+            max="360"
+        >
+        <label for="saturation">saturation</label>
+        <input 
+            type="range" 
+            name="saturation" 
+            id="saturation"
+            value="100%"
+            min="0%"
+            max="100%"
+        >
+        <label for="lightness">lightness</label>
+        <input 
+            type="range" 
+            name="lightness" 
+            id="lightness"
+            value="50"
+            min="0"
+            max="100"
+        >
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
