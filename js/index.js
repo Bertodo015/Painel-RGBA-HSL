@@ -72,6 +72,9 @@ const onChangeRangesHSL = () => {
     directHSLBlue.checked = false
 }
 
+//https://gist.github.com/mjackson/5311256
+//repositório de converção de rgba para hsla
+
 $all(
     '#color-controls-hsl input[type=range]'
 ).forEach((range) => range.oninput = onChangeRangesHSL)
